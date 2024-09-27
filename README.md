@@ -28,7 +28,7 @@ To run the project locally, follow these steps:
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/simple-mapbox-3d-map.git
+   git clone https://github.com/rogadev/map.git
    ```
 2. **Navigate to the project directory**
 
