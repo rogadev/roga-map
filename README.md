@@ -42,12 +42,30 @@ To run the project locally, follow these steps:
    npm i
    ```
 
-4. **Run the dev server**
+4. **Configure Mapbox API Key**
+
+The application requires a Mapbox API key to function properly. Follow these steps to set it up:
+
+- Obtain a Mapbox API Key: If you don't have one, sign up for a free account at Mapbox to get your API key.
+- Create a .env File: In the root directory of the project, create a file named .env.
+- Add Your API Key to the .env File:
+
+```env
+env
+```
+
+```env
+MAPBOX_API_KEY=your_mapbox_api_key_here
+```
+
+Note: Replace "your_mapbox_api_key_here" with your actual Mapbox API key.
+
+5. **Run the dev server**
 
    ```bash
    npm run dev
    ```
 
-5. **Open browser**
+6. **Open browser**
    
-6. **Visit [http://localhost:3000](http://localhost:3000) to view the application.**
+7. **Visit [http://localhost:3000](http://localhost:3000) to view the application.**
