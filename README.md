@@ -33,37 +33,33 @@ To run the project locally, follow these steps:
 2. **Navigate to the project directory**
 
    ```bash
-   cd simple-mapbox-3d-map
+   cd map
    ```
 
 3. **Install deps**
 
    ```bash
-   npm i
+   pnpm install
    ```
 
-4. **Configure Mapbox API Key**
+4. **Configure Mapbox access token**
 
-The application requires a Mapbox API key to function properly. Follow these steps to set it up:
+The application requires a Mapbox access token to function properly. Follow these steps to set it up:
 
-- Obtain a Mapbox API Key: If you don't have one, sign up for a free account at Mapbox to get your API key.
-- Create a .env File: In the root directory of the project, create a file named .env.
-- Add Your API Key to the .env File:
-
-```env
-env
-```
+- Obtain a Mapbox access token: If you don't have one, sign up for a free account at Mapbox to get your token.
+- Create a `.env` file: Copy `.env.example` to `.env` in the root directory of the project.
+- Add your token to the `.env` file:
 
 ```env
-MAPBOX_API_KEY=your_mapbox_api_key_here
+MAPBOX_ACCESS_TOKEN=your_mapbox_access_token_here
 ```
 
-Note: Replace "your_mapbox_api_key_here" with your actual Mapbox API key.
+Note: Replace "your_mapbox_access_token_here" with your actual Mapbox access token.
 
 5. **Run the dev server**
 
    ```bash
-   npm run dev
+   pnpm dev
    ```
 
 6. **Open browser**
